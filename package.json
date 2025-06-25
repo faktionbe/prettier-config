@@ -12,9 +12,7 @@
     "./base": "./base.mjs"
   },
   "files": [
-    "base.mjs",
-    "react.mjs",
-    "node.mjs"
+    "base.mjs"
   ],
   "scripts": {
     "release": "changeset publish"
