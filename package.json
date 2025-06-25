@@ -1,0 +1,23 @@
+{
+  "name": "@faktion-com/prettier-config",
+  "version": "0.0.0",
+  "description": "A configuration for prettier formatter",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "exports": {
+    "./base": "./base.mjs"
+  },
+  "files": [
+    "base.mjs",
+    "react.mjs",
+    "node.mjs"
+  ],
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5",
+    "prettier-plugin-tailwindcss": "^0.6.13"
+  }
+}
