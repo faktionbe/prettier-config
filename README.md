@@ -1,0 +1,1 @@
+# @faktion-com:prettier-config
