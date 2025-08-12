@@ -38,6 +38,17 @@ import baseConfig from "@faktion-com/prettier-config/base";
 export default baseConfig;
 ```
 
+### Tailwind css specific Setup
+For projects with custom tailwind config, you need to add a property to the config pointing to your tailwind.
+config.js file so that when you add custom classes, they also get ordered by the tailwind pluging
+```typescript
+import reactConfig from "@faktion-com/prettier-config/react";
+export default {
+    ...reactConfig,
+    "tailwindConfig": "./apps/frontend/tailwind.config.js"
+} as const
+```
+
 ### Package.json Configuration
 
 Alternatively, you can add the configuration directly to your `package.json`:
