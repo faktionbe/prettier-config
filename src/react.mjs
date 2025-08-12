@@ -5,7 +5,10 @@ export default {
   jsxSingleQuote: true,
   tailwindPreserveWhitespace: true,
   tailwindFunctions: [
-    "tw"
+    "tw",
+    "cn",
+    "clsx",
+    "twMerge"
   ],
   plugins: ["prettier-plugin-tailwindcss"],
 };
